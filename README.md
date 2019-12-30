@@ -6,6 +6,31 @@ This project is developed and supported for the University of Salerno master cla
 
 A simple p2p anonymous chat where members (peers) can create and/or join a chat room and send messages in it. 
 
+## Implementation
+
+### Basic operations
+
+- Create a chat room specifying the name
+- Join one of the created chat rooms specifying the name
+- Leave a a room you joined
+- Send a message in a room you joined 
+
+### Additional operation
+
+- Delete a room specifying the name only if you are the creator
+- List the rooms you joined
+- Leave the network
+
+### Technologies
+
+The project has been implemented with:
+- Java 8
+- Apache Maven
+- Eclipse IDE
+- Tom p2p
+- JUnit
+- Docker
+
 ## Project Structure
 
 The main program is structured in six Java classes cotained in the package ```src/main/java/it/unisa/gianmarcorusso/anonymouschat/```: 
