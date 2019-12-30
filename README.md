@@ -3,6 +3,7 @@
 This project is developed and supported for the University of Salerno master class of Distributed Systems. It aims to show an example of the P2P framework/library [TomP2P](https://tomp2p.net/).
 
 ##Description
+
 A simple p2p anonymous chat where members (peers) can create and/or join a chat room and send messages in it. 
 
 ## Project Structure
