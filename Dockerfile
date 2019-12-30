@@ -1,7 +1,6 @@
-FROM alpine
+FROM alpine/git
 WORKDIR /app
-ADD . /app/anonymouschat
-
+RUN git clone https://github.com/ZioPepito/anonymouschat.git
 
 FROM maven:3.5-jdk-8-alpine
 WORKDIR /app
