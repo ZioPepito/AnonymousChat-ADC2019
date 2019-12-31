@@ -14,7 +14,7 @@ public class MessageListenerImpl implements MessageListener{
 	public Object parseMessage(Object obj) {	
 		TextIO textIO = TextIoFactory.getTextIO();
 		TextTerminal terminal = textIO.getTextTerminal();
-		terminal.printf("\n(Direct Message Received) "+obj+"\n\n");
+		terminal.printf("\n(Message Received) "+obj+"\n\n");
 		return "success";
 	}
 }
