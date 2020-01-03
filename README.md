@@ -58,7 +58,7 @@ After that you can start the master peer, in interactive mode (-i) and with two 
 
 ```docker run -i --name MASTER-PEER -e MASTERIP="127.0.0.1" -e ID=0 anonymouschat```
 
-,the MASTERIP envirnoment variable is the master peer ip address and the ID environment variable is the unique id of your peer. Rember you have to run the master peer using the ID=0.
+The MASTERIP envirnoment variable is the master peer ip address and the ID environment variable is the unique id of your peer. Rember you have to run the master peer using the ID=0.
 
 #### Start a generic peer
 
