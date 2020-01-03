@@ -37,7 +37,7 @@ The main program is structured in six Java classes cotained in the package ```sr
 
 - _AnonymousChat_ the interface that define all the operations of the project.
 - _AnonymousChatImpl_ the implementation of the previous interface.	
-- _Room_ a class thet contains all the informations about a chat room.
+- _Room_ a class that contains all the informations about a chat room.
 - _MessageListener_ a interface for listener of messages received
 - _MessageListenerImpl_ the iplementation of the previous interface
 - _Program_ a text terminal to interact with the system.
