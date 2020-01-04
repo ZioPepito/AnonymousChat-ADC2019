@@ -10,14 +10,14 @@ A simple p2p anonymous chat where members (peers) can create and/or join a chat 
 
 ### Basic operations
 
-- Create a chat room specifying the name
-- Join one of the created chat rooms specifying the name
-- Leave a a room you joined
-- Send a message in a room you joined 
+- Create a chat room by specifying a unique name
+- Join one of the created chat rooms by specifying the name
+- Leave a chat room you joined by specifying the name
+- Send a message in a room you joined (type room's name and then the message)
 
 ### Additional operation
 
-- Delete a room specifying the name only if you are the creator
+- Delete a room specifying the name, only if you are the creator
 - List the rooms you joined
 - Leave the network
 
@@ -37,7 +37,7 @@ The main program is structured in six Java classes cotained in the package ```sr
 
 - _AnonymousChat_ the interface that define all the operations of the project.
 - _AnonymousChatImpl_ the implementation of the previous interface.	
-- _Room_ a class that contains all the informations about a chat room.
+- _Room_ a class that contains all the information about a chat room.
 - _MessageListener_ a interface for listener of messages received
 - _MessageListenerImpl_ the iplementation of the previous interface
 - _Program_ a text terminal to interact with the system.
